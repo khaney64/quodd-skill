@@ -15,7 +15,7 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
 
-CACHE_DIR = Path.home() / ".cache" / "clawdbot"
+CACHE_DIR = Path.home() / ".openclaw" / "credentials"
 TOKEN_CACHE_FILE = CACHE_DIR / "quodd-token.json"
 TOKEN_TTL_HOURS = 20
 

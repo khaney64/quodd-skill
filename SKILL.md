@@ -98,5 +98,5 @@ AAPL     01/29/26    14:30    185.50   180.25   182.63   17:45:30     182.80
 
 ## Notes
 
-- Authentication tokens are cached at `~/.cache/clawdbot/quodd-token.json` for 20 hours
+- Authentication tokens are cached at `~/.openclaw/credentials/quodd-token.json` for 20 hours
 - Use `--no-cache` if you encounter authentication errors after credential changes
