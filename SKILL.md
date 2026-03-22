@@ -14,45 +14,40 @@ For more information, visit: https://www.quodd.com/stock-and-etf-data
 
 ```bash
 # Get a quote for Apple
-python scripts/quote.py AAPL
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL
 
 # Get quotes for multiple tickers
-python scripts/quote.py AAPL MSFT META
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL MSFT META
 ```
 
 ## Prerequisites
 
-Set the following environment variables:
-
-```bash
-export QUODD_USERNAME="your_username"
-export QUODD_PASSWORD="your_password"
-```
+Requires `QUODD_USERNAME` and `QUODD_PASSWORD` environment variables to be set.
 
 ## Usage
 
 ### Single Ticker
 
 ```bash
-python scripts/quote.py AAPL
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL
 ```
 
 ### Multiple Tickers
 
 ```bash
-python scripts/quote.py AAPL MSFT META GOOGL
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL MSFT META GOOGL
 ```
 
 ### JSON Output
 
 ```bash
-python scripts/quote.py AAPL --format json
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL --format json
 ```
 
 ### Force Token Refresh
 
 ```bash
-python scripts/quote.py AAPL --no-cache
+python3 /home/claw/.openclaw/workspace/skills/quodd/scripts/quote.py AAPL --no-cache
 ```
 
 ## Output Format
